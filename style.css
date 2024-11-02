@@ -88,6 +88,13 @@
 
 }
 
+@media screen and (max-width: 400px) {
+    #btn1 {
+        margin-left: 41px;
+    }
+
+}
+
 #card{
     width: 478px;
 }
@@ -111,6 +118,7 @@
     margin-left:354px;
 } */
 } 
+
 
 
 #card2img{
@@ -139,12 +147,37 @@
     margin-left:54px;
 }
 
+@media screen and (max-width: 400px) {
+    #banner2 {
+        height: 300px;
+    }
+    #card{
+        width: 220px;
+    }
+    #card9{
+        width: 250px;
+        margin-left: 0px;
+    }
+    
+    #btn2{
+        margin-left:80px;
+    }
+    #btn3{
+        margin-left:70px;
+    }
+    } 
+
 #card10{
     margin-top: -93px;
     margin-left: 118px;
     margin-right: 119px;
     margin-bottom: 40px;
 }
+
+#img1{
+    height: 400px;
+}
+
 
 @media screen and (max-width: 600px) {
     
@@ -154,15 +187,22 @@
         margin-right: 60px;
         margin-bottom: 40px;
     }
-    /* #img1{
-        height: 100px;
-    } */
+    #img1{
+        height: 270px;
+    }
       }
+      @media screen and (max-width: 400px) {
+        #card10{
+            margin-top: -93px;
+            margin-left: 15px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+        }
+        #img1{
+            height: 200px;
+        }
+          }
 
-
-#img1{
-    height: 400px;
-}
 
 
 #caption2{
@@ -215,3 +255,16 @@
         margin-left: -90px;
     }
       }
+
+      @media screen and (max-width: 400px) {
+        #para{
+            margin-left: -10px;
+            width: 250px;
+        }
+        #caption2{
+            margin-bottom: -20px;
+        }
+        #btn5{
+            margin-left: -20px;
+        }
+          }
