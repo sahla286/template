@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 400px) {
     #btn1 {
-        margin-left: 70px;
+        margin-left: 60px;
     }
 
 }
@@ -109,7 +109,7 @@
     margin-left: 0px;
 }
 #card{
-    width: 400px;
+    width: 75%;
 }
 /* #btn2{
     margin-left:275px;
@@ -258,7 +258,7 @@
 
       @media screen and (max-width: 400px) {
         #para{
-            margin-left: -20px;
+            margin-left: 0px;
             width: 250px;
         }
         #caption2{
