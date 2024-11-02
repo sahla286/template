@@ -53,32 +53,13 @@
     width: 25%;
 }
 
-/* @media screen and (max-width: 400px) {
-    #card1img{
-        height: 150px;
-    }
-    #btn1{
-        margin-left: 85px;
-    }
-    #card1{
-        margin-top: 10px;
-    }
-    #card2{
-        margin-top: 500px;
-    }
-    #card3{
-        margin-top: 700px;
-    }
-  } */
-
 
   @media screen and (max-width: 600px) {
     #btn1 {
         margin-left: 110px;
     }
     .container-fluid .d-flex {
-        flex-direction: column; /* Stack cards vertically */
-        align-items: center;
+        flex-direction: column; 
     }
     #card1{
         
@@ -109,7 +90,7 @@
     margin-left: 0px;
 }
 #card{
-    width: 75%;
+    width: 400px;
 }
 /* #btn2{
     margin-left:275px;
@@ -268,3 +249,6 @@
             margin-left: -20px;
         }
           }
+
+
+
