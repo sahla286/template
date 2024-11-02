@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    border: 1px solid rgb(155, 154, 154);
+    margin-right: 10px;
+}
+
+#banner-container1{
+    padding: 0px;
+}
+#banner1{
+    height: 440px;
+}
+#caption1{
+    margin-bottom: 150px ;
+}
+
+#card1img{
+    height: 150px;
+}
+#btn1{
+    margin-left: 85px;
+}
+
+#card{
+    width: 478px;
+}
+
+#card2img{
+    height: 200px;
+}
+.card-body{
+    background-color: rgb(242, 242, 242);
+}
+#btn2{
+    margin-left:275px;
+}
+
+#banner-container2{
+    padding: 0px;
+    width: 100vw; 
+    left: -12px;
+}
+#banner2 {
+    height: 280px;
+}
+
+#container{
+    margin: 120px;
+}
+#btn3{
+    margin-left:54px;
+}
+
+#card10{
+    margin-top: -93px;
+    margin-left: 118px;
+    margin-right: 119px;
+    margin-bottom: 40px;
+}
+
+
+#img1{
+    height: 400px;
+}
+
+
+#caption2{
+    margin-bottom: 35px;
+}
+#banner3{
+    height: 500px;
+    padding: 0px;
+}
+#para{
+    margin-left: 127px;
+    opacity: 0.6;
+    width: 635px;
+}
+#banner-container3{
+    padding: 0px;
+    width: 100vw; 
+    left: -12px;
+}
+#form1{
+    margin-left: 115px;
+    margin-right: 117px;
+}
+#form1>div>input{
+    height: 30px;
+    opacity: 0.6;
+}
+#form1>div>textarea{
+    height: 136px;
+    opacity: 0.6;
+}
+#btn5{
+    margin-left: -243px;
+}
