@@ -28,14 +28,32 @@
     }
   }
 
+  @media screen and (max-width: 600px) {
+    #banner1{
+        height: 340px;
+    }
+    #caption1{
+        margin-bottom: 70px;
+    }
+  }
+
 #card1img{
     height: 150px;
 }
 #btn1{
     margin-left: 85px;
 }
+#card1{
+    width: 25%;
+}
+#card2{
+    width: 25%;
+}
+#card3{
+    width: 25%;
+}
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     #card1img{
         height: 150px;
     }
@@ -43,16 +61,57 @@
         margin-left: 85px;
     }
     #card1{
-
+        margin-top: 10px;
     }
     #card2{
-        
+        margin-top: 500px;
     }
-  }
+    #card3{
+        margin-top: 700px;
+    }
+  } */
+
+
+  @media screen and (max-width: 600px) {
+    #btn1 {
+        margin-left: 110px;
+    }
+    .container-fluid .d-flex {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;
+    }
+    #card1{
+        
+        width: 75%;
+        height: fit-content;
+    }
+
+}
 
 #card{
     width: 478px;
 }
+#card9{
+    width: 478px;
+}
+
+@media screen and (max-width: 600px) {
+    
+#card9{
+    width: 350px;
+    margin-left: 0px;
+}
+#card{
+    width: 350px;
+}
+/* #btn2{
+    margin-left:275px;
+}
+#btn3{
+    margin-left:354px;
+} */
+} 
+
 
 #card2img{
     height: 200px;
@@ -86,6 +145,19 @@
     margin-right: 119px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    
+    #card10{
+        margin-top: -93px;
+        margin-left: 50px;
+        margin-right: 60px;
+        margin-bottom: 40px;
+    }
+    /* #img1{
+        height: 100px;
+    } */
+      }
 
 
 #img1{
@@ -125,3 +197,21 @@
 #btn5{
     margin-left: -243px;
 }
+
+
+@media screen and (max-width: 600px) {
+    #contact{
+        color: rgb(118, 117, 117);
+    }
+    #para{
+        margin-left: -45px;
+        width: 450px;
+    }
+    #form1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #btn5{
+        margin-left: -90px;
+    }
+      }
