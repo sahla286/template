@@ -35,6 +35,16 @@
     margin-left: 85px;
 }
 
+@media screen and (max-width: 400px) {
+    #card1img{
+        height: 150px;
+        width: 50%;
+    }
+    #btn1{
+        text-align: center;
+    }
+  }
+
 #card{
     width: 478px;
 }
