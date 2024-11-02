@@ -19,6 +19,12 @@
     margin-bottom: 150px ;
 }
 
+@media screen and (max-width: 400px) {
+    #banner1{
+        height: 340px;
+    }
+  }
+
 #card1img{
     height: 150px;
 }
