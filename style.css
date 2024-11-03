@@ -91,6 +91,7 @@
 }
 #card{
     width: 400px;
+    /* width: 340px; */
 }
 } 
 
@@ -121,7 +122,22 @@
 #btn3{
     margin-left:54px;
 }
-
+@media screen and (max-width: 600px) {
+    
+    #card9{
+        width: 350px;
+        margin-left: -120px;
+    }
+    #card{
+        width: 340px;
+    }
+    #btn2{
+        margin-left:180px;
+    }
+    #btn3{
+        margin-left:125px;
+    }
+    } 
 @media screen and (max-width: 400px) {
     #banner2 {
         height: 300px;
